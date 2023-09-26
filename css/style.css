@@ -1,3 +1,10 @@
+/* Navigation bar */
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -7,9 +14,31 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    /* Remove underline */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    /* Add underline on hover */
 }
 
 nav ul li:first-child {
-    
+    float: left;
+}
+
+
+/* Footer  */
+footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+footer p {
+    color: white;
 }

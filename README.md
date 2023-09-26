@@ -13,3 +13,12 @@ li:last-child
 
 4. Flexbox là gì ? 
 Flexbox, short for "Flexible Box Layout," is a CSS layout model that provides an efficient and predictable way to distribute space and align elements within a container, even when the container's size is unknown or dynamic. It simplifies complex layout challenges, making it easier to create responsive and flexible designs.
+
+5. Block and inline elements 
+Block  : create a new block formatting context in the document flow, and they typically start on a new line, taking up the full available width of their parent container.
+    div, p, h1, h2, h3, ..., ul, ol, li, form, table, tr, td, section, article, header, footer, nav, aside, blockquote
+Inline : do not start on a new line and only take up as much width as necessary to display their content
+    span, a, strong, em, abbr, code, br, img, input, button
+
+6. Cách align code CSS đẹp 
+Shift Alt F
