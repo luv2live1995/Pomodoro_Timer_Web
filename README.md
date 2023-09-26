@@ -22,3 +22,7 @@ Inline : do not start on a new line and only take up as much width as necessary 
 
 6. Cách align code CSS đẹp 
 Shift Alt F
+
+7. Position
+position : absolute 
+In CSS, the position: absolute; property is used to position an element relative to its nearest positioned ancestor (or the containing block) rather than within the normal document flow. When you set an element's position to "absolute," it is taken out of the flow of the document, and its positioning is determined by its closest positioned ancestor.
