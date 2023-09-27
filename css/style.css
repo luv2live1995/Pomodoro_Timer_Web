@@ -39,11 +39,12 @@ nav ul li:first-child {
     display: none;    /* Initially hide the dropdown content */
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    /* min-width: 160px; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    /* top: 100%; */
-    /* left: 0; */
+    list-style-type: none;
+    padding: 0;
+    width: auto;
 }
 
 .dropdown-content a {
@@ -54,11 +55,15 @@ nav ul li:first-child {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    top: 100%;
+    left: 0;
 }
 
 .dropdown-content li {
     display: block;
     padding: 10px;
+    /* white-space: nowrap; */
+    /* white-space: normal; */
 }
 
 .caret::after {
@@ -66,6 +71,29 @@ nav ul li:first-child {
     float: right; /* Float the caret to the right */
     margin-left: 5px; /* Add some spacing between the text and caret */
 }
+
+/* Sidebar  */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #333;
+    color: white;
+    transition: left 0.3s;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+
 
 /* Footer  */
 footer {

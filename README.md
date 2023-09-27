@@ -26,3 +26,18 @@ Shift Alt F
 7. Position
 position : absolute 
 In CSS, the position: absolute; property is used to position an element relative to its nearest positioned ancestor (or the containing block) rather than within the normal document flow. When you set an element's position to "absolute," it is taken out of the flow of the document, and its positioning is determined by its closest positioned ancestor.
+
+8. What is webpack ? 
+Webpack is a tool that helps web developers manage and bundle their website's files, like JavaScript, CSS, and images. Imagine it as a packing machine for your web files.
+
+Here's how it works:
+
+You have many small files for your website, like different pieces of JavaScript code and CSS styles.
+
+Webpack takes all these small files and combines them into one or a few larger files. This is like putting all your belongings into one suitcase for a trip.
+
+It can also do some tricks, like making your files smaller or removing things you don't need, so your website loads faster.
+
+When someone visits your website, they only download the bundled files, which is more efficient and makes your site faster.
+
+So, Webpack helps developers organize, optimize, and package their web code, making websites faster and more efficient for users.

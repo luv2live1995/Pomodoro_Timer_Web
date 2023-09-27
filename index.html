@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <!-- You can link to additional stylesheets or libraries here -->
 </head>
 <body>
@@ -13,13 +14,21 @@
             <!-- Your navigation menu goes here -->
             <ul>
                 <li><a href="#about">Pomodoro Timer</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
+                <li><a href="#about">Home</a></li>
+                <li><a href="#features">Contact</a></li>
+                <li><input type="text" placeholder="Search..."></li>
+                <!-- <li class="dropdown"> -->
                     <!-- <a href="#">Services</a> -->
+                    <!-- <ul class="dropdown-content"> -->
+                        <!-- <li class="caret"><a href="#">Services &#9662;</a></li> -->
+                        <!-- <li><a href="#">Service 1</a></li> -->
+                        <!-- <li><a href="#">Service 2</a></li> -->
+                        <!-- <li><a href="#">Service 3</a></li> -->
+                    <!-- </ul> -->
+                <!-- </li> -->
+                <li class="dropdown">
+                    <a href="#">Services &#9662;</a>
                     <ul class="dropdown-content">
-                        <li class="caret"><a href="#">Services &#9662;</a></li>
                         <li><a href="#">Service 1</a></li>
                         <li><a href="#">Service 2</a></li>
                         <li><a href="#">Service 3</a></li>
@@ -29,34 +38,47 @@
         </nav>
     </header>
 
-    <section id="hero">
-        <!-- Your hero section content goes here -->
-        <h1>Welcome to Your Website</h1>
-        <p>Amazing tagline or description here.</p>
-        <a href="#contact" class="cta-button">Get Started</a>
-    </section>
-
-    <section id="about">
-        <!-- Your about section content goes here -->
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </section>
-
-    <section id="features">
-        <!-- Your features section content goes here -->
-        <h2>Key Features</h2>
+    <section class="sidebar">
+        <button class="toggle-btn">&#9776; Toggle Sidebar</button>
         <ul>
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
         </ul>
     </section>
 
-    <section id="contact">
-        <!-- Your contact section content goes here -->
-        <h2>Contact Us</h2>
-        <p>Contact information and a contact form can be placed here.</p>
+    <section class="content">
+        <section id="hero">
+            <!-- Your hero section content goes here -->
+            <h1>Welcome to Your Website</h1>
+            <p>Amazing tagline or description here.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </section>
+    
+        <section id="about">
+            <!-- Your about section content goes here -->
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+    
+        <section id="features">
+            <!-- Your features section content goes here -->
+            <h2>Key Features</h2>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+        </section>
+    
+        <section id="contact">
+            <!-- Your contact section content goes here -->
+            <h2>Contact Us</h2>
+            <p>Contact information and a contact form can be placed here.</p>
+        </section>
     </section>
+
+    
 
     <footer>
         <!-- Your footer content goes here -->
