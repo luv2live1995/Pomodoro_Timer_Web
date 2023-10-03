@@ -41,3 +41,9 @@ It can also do some tricks, like making your files smaller or removing things yo
 When someone visits your website, they only download the bundled files, which is more efficient and makes your site faster.
 
 So, Webpack helps developers organize, optimize, and package their web code, making websites faster and more efficient for users.
+
+9. How to make p inside footer expands full width of footer ? 
+
+footer p {
+    width: 100%;
+}

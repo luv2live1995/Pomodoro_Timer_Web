@@ -35,6 +35,43 @@ nav ul li:first-child {
     position: relative;
 }
 
+/* Sidebar */
+.sidebar {
+    /* float: left; */
+    /* width: 25%; */
+    /* position: fixed; */
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    /* left: -250px; */
+    /* padding: 10px 0px 0px 0px; */
+    color: white;
+    transition: left 0.3s;
+    background-color: red;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+#sidebar-toggle {
+    /* position: absolute; */
+    top: 10px;
+    left: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
 .dropdown-content {
     display: none;    /* Initially hide the dropdown content */
     position: absolute;
@@ -72,35 +109,26 @@ nav ul li:first-child {
     margin-left: 5px; /* Add some spacing between the text and caret */
 }
 
-/* Sidebar  */
-.sidebar {
-    width: 250px;
+body {
+    display: flex;
+    flex-direction: column;
     height: 100%;
-    position: fixed;
-    top: 0;
-    left: -250px;
-    background-color: #333;
-    color: white;
-    transition: left 0.3s;
 }
 
-.sidebar ul {
-    list-style: none;
-    padding: 0;
+.content {
+    margin-left: 0;
+    transition: margin-left 0.3s;
 }
-
-.sidebar li {
-    padding: 10px;
-}
-
 
 
 /* Footer  */
 footer {
     background-color: #333;
     padding: 10px;
+    text-align: center;
 }
 
 footer p {
     color: white;
+    width: 100%;
 }

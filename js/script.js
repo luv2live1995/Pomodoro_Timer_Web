@@ -1,16 +1,16 @@
-// script.js
-document.addEventListener("DOMContentLoaded", function () {
-    const sidebar = document.querySelector(".sidebar");
-    const toggleBtn = document.querySelector(".toggle-btn");
-    const content = document.querySelector(".content");
+// Get references to the sidebar and toggle button
+const sidebar = document.querySelector('.sidebar');
+const toggleButton = document.getElementById('sidebar-toggle');
 
-    toggleBtn.addEventListener("click", function () {
-        if (sidebar.style.left === "0px" || sidebar.style.left === "") {
-            sidebar.style.left = "-250px";
-            content.style.marginLeft = "0";
-        } else {
-            sidebar.style.left = "0";
-            content.style.marginLeft = "250px";
-        }
-    });
+// Add click event listener to the toggle button
+toggleButton.addEventListener('click', function () {
+    // Toggle the sidebar by adding/removing the "active" class
+    sidebar.classList.toggle('active');
+
+    // Toggle the content margin to make space for the sidebar
+    if (sidebar.classList.contains('active')) {
+        document.querySelector('.content').style.marginLeft = '0';
+    } else {
+        document.querySelector('.content').style.marginLeft = '250px';
+    }
 });
