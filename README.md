@@ -1,3 +1,15 @@
+Cách tích hợp Co-pilot vào code
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+
 1. Cách đặt các element nằm ngang 
 CSS Inline - Inline block
 CSS Flexbox 
